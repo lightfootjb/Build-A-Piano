@@ -39,3 +39,38 @@ body {
   margin-right: calc(var(--width)/ -2);
   z-index: 2;
 }
+
+.white.active {
+    background-color: #ccc;
+  }
+  
+  .black.active {
+    background-color: #333;
+  }
+
+/* Note Display */
+  #note-display {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+
+/* 🎚 Volume Control */
+#controls {
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+#volume {
+  width: 200px;
+  margin-top: 8px;
+  margin-left: 0;
+}
